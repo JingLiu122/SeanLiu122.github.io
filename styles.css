@@ -25,6 +25,27 @@ body {
 	object-fit: cover;
 	object-position: 30% 0%;
 }
+footer {
+	margin: 40px 0;
+}
+nav li {
+	display: inline;
+	float: left;
+}
+footer nav a:link, footer nav a:visited {
+	color: gray;
+	text-decoration: none;
+	display: block;
+	width: 260px;
+	text-align: center;
+	background-color: white;
+}
+footer nav a:hover {
+	color: black;
+}
 /*.profile-img:hover {
 	transform: scale(1.25);
+}*/
+/*#menu li {
+	display: inline;
 }*/
