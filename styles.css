@@ -26,22 +26,18 @@ body {
 	object-position: 30% 0%;
 }
 footer {
-	margin: 40px 0;
-}
-nav li {
-	display: inline;
-	float: left;
-}
-footer nav a:link, footer nav a:visited {
-	color: gray;
-	text-decoration: none;
-	display: block;
-	width: 260px;
+	display:  fixed;
+	padding:  5px;
+	justify-content: center;
 	text-align: center;
-	background-color: white;
+	background-color:  #FF5C5C;
 }
-footer nav a:hover {
-	color: black;
+.contact {
+	margin: 15px;
+}
+.contact button {
+	width: 100px;
+	height: 50px;
 }
 /*.profile-img:hover {
 	transform: scale(1.25);
