@@ -3,5 +3,3 @@ markdown: kramdown
 
 future: true
 timezone: TIMEZONE
-
-url: https://seanliu122.github.io/
