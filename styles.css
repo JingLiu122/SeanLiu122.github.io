@@ -26,31 +26,18 @@ body {
 	object-position: 30% 0%;
 }
 footer {
-	background-color: #900C3F;
-	color: white;
+	display:  fixed;
+	padding:  5px;
+	justify-content: center;
 	text-align: center;
+	background-color:  #FF5C5C;
 }
-nav ul {
-	list-style-type: none;
-	margin-top: 0;
-	padding: 0;
+.contact {
+	margin: 15px;
 }
-nav li {
-	display: inline;
-	float: left;
-}
-footer nav a:link, footer nav a:visited {
-	color: gray;
-	text-decoration: none;
-	display: block;
-	width: 320px;
-	text-align: center;
-	padding: 10px 0;
-	background-color: white;
-}
-footer nav a:hover {
-	color: black;
-	background-color: lightgray;
+.contact button {
+	width: 100px;
+	height: 50px;
 }
 /*.profile-img:hover {
 	transform: scale(1.25);
