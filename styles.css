@@ -26,7 +26,14 @@ body {
 	object-position: 30% 0%;
 }
 footer {
-	margin: 40px 0;
+	background-color: #900C3F;
+	color: white;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
 }
 nav li {
 	display: inline;
@@ -36,12 +43,14 @@ footer nav a:link, footer nav a:visited {
 	color: gray;
 	text-decoration: none;
 	display: block;
-	width: 260px;
+	width: 320px;
 	text-align: center;
+	padding: 10px 0;
 	background-color: white;
 }
 footer nav a:hover {
 	color: black;
+	background-color: lightgray;
 }
 /*.profile-img:hover {
 	transform: scale(1.25);
